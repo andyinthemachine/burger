@@ -1,21 +1,21 @@
 <h1>Burgers</h1>
 
-<h2>Burgers not eaten</h2>
+<h2>Burgers that are not eaten!</h2>
 
 <ul>
   {{#each burgers}}
     {{#unless eaten}}
-      {{> burgers/burger-block eaten=false}}
+      {{> burgers/burger-block eat=true}}
     {{/unless}}
   {{/each}}
 </ul>
 
-<h2>Burgers eaten</h2>
+<h2>Burgers that are eaten!</h2>
 
 <ul>
   {{#each burgers}}
     {{#if eaten}}
-      {{> burgers/burger-block eaten=true}}
+      {{> burgers/burger-block eat=false}}
     {{/if}}
   {{/each}}
 </ul>
@@ -24,8 +24,8 @@
 <form class="create-form">
 
   <div class="form-group">
-    <label for="add-burger">Burger Name:</label>
-    <input type="text" id="add-burger" name="name">
+    <label for="ba">Burger Name:</label>
+    <input type="text" id="ba" name="name">
   </div>
 
   <div class="form-group">

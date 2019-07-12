@@ -1,6 +1,6 @@
-INSERT INTO burger (name) VALUES ('Bleu Cheese');
-INSERT INTO burger (name) VALUES ('Lamb and Avocado');
-INSERT INTO burger (name, eaten) VALUES ('Paddy Smith', true);
-INSERT INTO burger (name, eaten) VALUES ('Open Sesame', true);
-INSERT INTO burger (name, eaten) VALUES ('Juicy Lucy', true);
-INSERT INTO burger (name) VALUES ('Steemed Cheeseburger');
+INSERT INTO  burgers (name) VALUES ('Juicy Lucy');
+INSERT INTO  burgers (name) VALUES ('Paddy Smith');
+INSERT INTO  burgers (name, eaten) VALUES ('Open Sesame', true);
+INSERT INTO  burgers (name, eaten) VALUES ('Steemed Cheesburge', true);
+INSERT INTO  burgers (name, eaten) VALUES ('Alpine', true);
+INSERT INTO  burgers (name) VALUES ('Lamb and Avocado');
