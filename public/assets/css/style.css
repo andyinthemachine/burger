@@ -1,19 +1,53 @@
-li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1559067933-0293effe6133?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");  
+  background-repeat: no-repeat;
+  background-size: 960px 780px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0b305e;
+  background-color: rgb(5, 5, 5)
 }
 
-.label {
+
+#container{
+  margin-left: 50px;
+}
+
+
+h1 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+}
+
+li {
+  color:rgb(34, 23, 23);
+  padding: 5px;
+  margin: 5px;
+  width: 400px;
   font-weight: bold;
+  font-size: 20px;
+
+}
+
+label, input {
+  font-weight: bold;
+  font-size: 20px;
+
 }
 
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
+  font-size: 20px;
+
+  background: blue;
 }
 
 .form-group {
+  font-size: 20x;
+
   margin-bottom: 5px;
 }
